@@ -124,9 +124,13 @@ main {
 }
 
 .btn:active {
-  transform: translateY(-60%);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  transform: translate(-60%);
+  /* box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15); */
   transition: transform 0.5s;
+}
+
+.btn:focus {
+  background: #2584ff;
 }
 
 /* DICE */

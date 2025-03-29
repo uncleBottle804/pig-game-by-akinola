@@ -100,7 +100,7 @@ function init() {
   document.querySelector(`.player--1`).classList.remove("player--active");
 
   document.querySelector(`.player--0`).classList.add("player--active");
-  // alert(`You started a new game`);
+  alert(`You started a new game`);
 }
 
 // NEXT PLAYER
